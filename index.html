@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shoe Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f8f8; }
+        header { background: #222; color: #fff; padding: 1rem; text-align: center; }
+        .container { max-width: 1000px; margin: 2rem auto; padding: 1rem; background: #fff; border-radius: 8px; }
+        .products { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; }
+        .product { background: #f0f0f0; border-radius: 8px; padding: 1rem; width: 220px; text-align: center; box-shadow: 0 2px 8px #ddd; }
+        .product img { width: 180px; height: 120px; object-fit: cover; border-radius: 4px; }
+        .product h3 { margin: 0.5rem 0; }
+        .product p { color: #555; }
+        .product button { background: #222; color: #fff; border: none; padding: 0.5rem 1rem; border-radius: 4px; cursor: pointer; }
+        footer { background: #222; color: #fff; text-align: center; padding: 1rem; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Super Footwears</h1>
+        <p>shop for the latest shoes!</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Featured Shoes</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://media.gettyimages.com/id/1124372738/photo/close-up-of-men-sport-shoes-on-white-background.jpg?s=612x612&w=0&k=20&c=nJrtpKNAhBD4g0I2CZtqnGwnsC9C9-Rageoc1tL8x6E=" alt="Running Shoes">
+                <h3>Running Shoes</h3>
+                <p>Comfortable and lightweight running shoes.</p>
+                <p><strong>₹999</strong></p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://media.gettyimages.com/id/157434344/photo/black-sneakers.jpg?s=612x612&w=0&k=20&c=40qZQUJgjPaeSELsZ6j927hudG46wHq7hJq8R2efres=" alt="Sneakers">
+                <h3>Sneakers</h3>
+                <p>Trendy sneakers for everyday wear.</p>
+                <p><strong>₹799</strong></p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://media.gettyimages.com/id/1952984976/photo/mens-formal-dress-shoes.jpg?s=612x612&w=0&k=20&c=6cxBCnCXbBo_-iHKaEMIP1XlUrHVSSZlREwPgNs5ZyU=" alt="Formal Shoes">
+                <h3>Formal Shoes</h3>
+                <p>Elegant shoes for formal occasions.</p>
+                <p><strong>₹1199</strong></p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Shoe Store. All rights reserved.
+    </footer>
